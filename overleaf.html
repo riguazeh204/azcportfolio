@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann Zhou — Overleaf Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <span class="logo">Ann Zhou</span>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="overleaf.html" class="active">Overleaf</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main class="container">
+        <section class="projects-section">
+            <h1 class="page-title">Overleaf & LaTeX Notes</h1>
+            <p class="section-subtitle">
+                When preparing for mathematics competitions, I often find myself randomly flipping through textbooks in hopes of finding X exact theorem I need. NSMLs were the trickiest--the was nothing exactly right. Everything was either too easy, too hard, or didn't cover the topic our coaches wanted us to practice. So, I decided to code my own notes in LaTeX, on the topics I wanted to cover. These notes are not meant to be completely comprehensive, but rather a quick reference for the most important theorems and techniques in each topic (if you were on the bus and needed a quick review). This way, I hope others won't have the struggle through the treasure hunt I went through every meet. 
+            </p>
+
+            <!-- NOTE ITEM 01: NUMBER THEORY -->
+            <div class="project-card">
+                <h2>01. Number Theory & Modular Arithmetic</h2>
+                <p class="project-desc">
+                    The universe knows I cannot even begin to cover anything past the tip of the iceberg of number theory. Maybe one of these days, though. 
+                </p>
+
+                <!-- Split View: 2/3 PDF on Left, 1/3 Blurb on Right -->
+                <div class="split-view overleaf-split">
+                    <!-- Left 2/3 PDF Viewer -->
+                    <div class="pdf-box">
+                        <iframe 
+                            src="numbertheory.pdf" 
+                            width="100%" 
+                            height="100%">
+                        </iframe>
+                    </div>
+
+                    <!-- Right 1/3 Text & Details Box -->
+                    <div class="info-box">
+                        <div>
+                            <h4>Key Topics</h4>
+                            <ul>
+                                <li>Foundation of Primes</li>
+                                <li>Mod Inverses</li>
+                                <li>Fermat's Little Theorem</li>
+                                <li>Wilson's Theorem</li>
+                                <li>Chinese Remainder Theorem (CRT)</li>
+                                <li>Euler's Totient Function</li>
+                            </ul>
+                        </div>
+                        <a href="numbertheory.pdf" target="_blank" class="github-btn">
+                            Open Full PDF →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NOTE ITEM 02: COUNTING & PROBABILITY -->
+            <div class="project-card">
+                <h2>02. Counting & Probability</h2>
+                <p class="project-desc">
+                    Probability is always something tricky to teach. There are so many "what ifs" that will change an entire problem with a single word. 
+                </p>
+
+                <!-- Split View: 2/3 PDF on Left, 1/3 Blurb on Right -->
+                <div class="split-view overleaf-split">
+                    <!-- Left 2/3 PDF Viewer -->
+                    <div class="pdf-box">
+                        <iframe 
+                            src="probability.pdf" 
+                            width="100%" 
+                            height="100%">
+                        </iframe>
+                    </div>
+
+                    <!-- Right 1/3 Text & Details Box -->
+                    <div class="info-box">
+                        <div>
+                            <h4>Key Topics</h4>
+                            <ul>
+                                <li>Fundamental Counting Principle</li>
+                                <li>Permutations & Combinations</li>
+                                <li>Stars & Bars (Sticks & Stones)</li>
+                                <li>Conditional Probability & Bayes's Theorem</li>
+                                <li>Expected Value</li>
+                                <li>Binomial Theorem</li>
+                                <li>Geometric Probability</li>
+                            </ul>
+                        </div>
+                        <a href="probability.pdf" target="_blank" class="github-btn">
+                            Open Full PDF →
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
